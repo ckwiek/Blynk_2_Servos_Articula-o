@@ -11,7 +11,7 @@
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
 
-char auth[] = "";
+char auth[] = "TOKEM";
 
 Servo servo;  
 Servo servo1;
@@ -19,7 +19,7 @@ Servo servo1;
 void setup()  
 {
   Serial.begin(9600);
-  Blynk.begin(auth, "Ckwiek", "ck127952*#");
+  Blynk.begin(auth, "REDE", "SENHA");
   servo.attach (12); //D5
   servo1.attach(14); //D6
 }
